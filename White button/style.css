@@ -1,0 +1,44 @@
+body {
+    background: url(image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+body.left-side {}
+body.left-side.h1 {}
+body.left-side.step {
+    display: flex;
+    flex-direction: row;
+}
+body.left-side.step.circle {
+    background-color: white;
+}
+body.left-side.line {
+    border-color: black;
+    border-width: 0;
+    border-left-width: 1px;
+}
+body.left-side.arrow {}
+
+body.right-side {}
+body.right-side.menu {
+    display: flex;
+    flex-direction: row;
+}
+body.right-side.menu.button {
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 0;
+    font-family: "Roboto Light", serif;
+    font-Size: 20px;
+    box-shadow: 10px 5px 5px grey;
+}
+body.right-side.menu.menu-button {}
+body.right-side.smartphone {}
+body.right-side.arrow {}
